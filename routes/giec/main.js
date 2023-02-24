@@ -1,7 +1,7 @@
 exports.index = function(req, res) { 
-    res.render('giec/index', 
+    res.render('simposio/2023/pt-BR/sobre', 
         {
-            layout: 'giec/layout',
+            layout: 'simposio/2023/pt-BR/layout',
             principal: true,
             titulo: "Principal"
         }
